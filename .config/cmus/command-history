@@ -1,0 +1,30 @@
+q
+pl-create satisfy
+add Music/van-gogh.mp3
+pl-create Jazz
+add Music/
+colorscheme base16-3024
+pl-create new
+add ~/Music/
+quit
+colorscheme base16-atelier-forest-ligh
+colorscheme solarized-dark
+colorscheme solarized-light
+colorscheme green-mono-88
+colorscheme gruvbox
+colorscheme jellybeans
+colorscheme night
+colorscheme spotify
+colorscheme xterm-white
+colorscheme dracula
+colorscheme base16-decaf
+colorscheme groove_grove
+colorscheme base16-atelier-heath
+colorscheme gray-88
+colorscheme base16-monokai
+colorscheme base16-onedark
+add Music/Jazz Music/
+pl-create 
+add new
+pl-create programming
+Q
