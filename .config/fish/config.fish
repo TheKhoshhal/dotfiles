@@ -4,6 +4,7 @@ end
 
 ### alias ###
 alias vim "nvim"
+alias vi "/usr/bin/vim"
 alias sourcefish "source ~/.config/fish/config.fish"
 
 # eza
