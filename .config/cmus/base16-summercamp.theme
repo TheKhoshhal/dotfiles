@@ -1,0 +1,75 @@
+## Base16 summercamp
+## Author: zoe firi (zoefiri.github.io)
+
+##
+# The following matchup is only true if you also changed your terminal emulator
+# colors to the same as the scheme you are using.
+# 0:       #1c1810
+# 1:       #e35142
+# 2:       #5ceb5a
+# 3:       #f2ff27
+# 4:       #489bf0
+# 5:       #FF8080
+# 6:       #5aebbc
+# 7:       #736e55
+# 8:       #504b38
+# 9:       #fba11b
+# 10:      #2a261c
+# 11:      #3a3527
+# 12:      #5f5b45
+# 13:      #bab696
+# 14:      #F69BE7
+# 15:      #f8f5de
+# 16:      #000000
+##
+
+# overall background and foreground color
+set color_win_fg=default
+set color_win_bg=default
+
+# bottom status line
+set color_statusline_fg=2
+set color_statusline_bg=default
+
+# bottom title line
+set color_titleline_fg=2
+set color_titleline_bg=default
+
+# top title area
+set color_win_title_fg=2
+set color_win_title_bg=default
+set color_win_title_attr=bold
+
+# command-line colors
+set color_cmdline_bg=default
+set color_cmdline_fg=default
+set color_error=1
+set color_info=6
+
+# separator of windows
+# should be black
+set color_separator=16
+
+# unselected currently playing track's text
+set color_win_cur=13
+
+# active selection for currently playing track
+set color_win_cur_sel_bg=default
+set color_win_cur_sel_fg=3
+set color_win_cur_sel_attr=underline
+
+# inactive selection for currently playing track
+set color_win_inactive_cur_sel_bg=default
+set color_win_inactive_cur_sel_fg=13
+
+# active selection
+set color_win_sel_bg=default
+set color_win_sel_fg=3
+set color_win_sel_attr=underline
+
+# inactive selection
+set color_win_inactive_sel_bg=default
+set color_win_inactive_sel_fg=1
+
+# directory listing color
+set color_win_dir=default

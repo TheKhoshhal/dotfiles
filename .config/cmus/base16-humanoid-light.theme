@@ -1,0 +1,75 @@
+## Base16 Humanoid light
+## Author: Thomas (tasmo) Friese
+
+##
+# The following matchup is only true if you also changed your terminal emulator
+# colors to the same as the scheme you are using.
+# 0:       #f8f8f2
+# 1:       #b0151a
+# 2:       #388e3c
+# 3:       #ffb627
+# 4:       #0082c9
+# 5:       #700f98
+# 6:       #008e8e
+# 7:       #232629
+# 8:       #c0c0bd
+# 9:       #ff3d00
+# 10:      #efefe9
+# 11:      #deded8
+# 12:      #60615d
+# 13:      #2f3337
+# 14:      #b27701
+# 15:      #070708
+# 16:      #000000
+##
+
+# overall background and foreground color
+set color_win_fg=default
+set color_win_bg=default
+
+# bottom status line
+set color_statusline_fg=2
+set color_statusline_bg=default
+
+# bottom title line
+set color_titleline_fg=2
+set color_titleline_bg=default
+
+# top title area
+set color_win_title_fg=2
+set color_win_title_bg=default
+set color_win_title_attr=bold
+
+# command-line colors
+set color_cmdline_bg=default
+set color_cmdline_fg=default
+set color_error=1
+set color_info=6
+
+# separator of windows
+# should be black
+set color_separator=16
+
+# unselected currently playing track's text
+set color_win_cur=13
+
+# active selection for currently playing track
+set color_win_cur_sel_bg=default
+set color_win_cur_sel_fg=3
+set color_win_cur_sel_attr=underline
+
+# inactive selection for currently playing track
+set color_win_inactive_cur_sel_bg=default
+set color_win_inactive_cur_sel_fg=13
+
+# active selection
+set color_win_sel_bg=default
+set color_win_sel_fg=3
+set color_win_sel_attr=underline
+
+# inactive selection
+set color_win_inactive_sel_bg=default
+set color_win_inactive_sel_fg=1
+
+# directory listing color
+set color_win_dir=default

@@ -1,0 +1,75 @@
+## Base16 darkmoss
+## Author: Gabriel Avanzi (https://github.com/avanzzzi)
+
+##
+# The following matchup is only true if you also changed your terminal emulator
+# colors to the same as the scheme you are using.
+# 0:       #171e1f
+# 1:       #ff4658
+# 2:       #499180
+# 3:       #fdb11f
+# 4:       #498091
+# 5:       #9bc0c8
+# 6:       #66d9ef
+# 7:       #c7c7a5
+# 8:       #555e5f
+# 9:       #e6db74
+# 10:      #252c2d
+# 11:      #373c3d
+# 12:      #818f80
+# 13:      #e3e3c8
+# 14:      #d27b53
+# 15:      #e1eaef
+# 16:      #000000
+##
+
+# overall background and foreground color
+set color_win_fg=default
+set color_win_bg=default
+
+# bottom status line
+set color_statusline_fg=2
+set color_statusline_bg=default
+
+# bottom title line
+set color_titleline_fg=2
+set color_titleline_bg=default
+
+# top title area
+set color_win_title_fg=2
+set color_win_title_bg=default
+set color_win_title_attr=bold
+
+# command-line colors
+set color_cmdline_bg=default
+set color_cmdline_fg=default
+set color_error=1
+set color_info=6
+
+# separator of windows
+# should be black
+set color_separator=16
+
+# unselected currently playing track's text
+set color_win_cur=13
+
+# active selection for currently playing track
+set color_win_cur_sel_bg=default
+set color_win_cur_sel_fg=3
+set color_win_cur_sel_attr=underline
+
+# inactive selection for currently playing track
+set color_win_inactive_cur_sel_bg=default
+set color_win_inactive_cur_sel_fg=13
+
+# active selection
+set color_win_sel_bg=default
+set color_win_sel_fg=3
+set color_win_sel_attr=underline
+
+# inactive selection
+set color_win_inactive_sel_bg=default
+set color_win_inactive_sel_fg=1
+
+# directory listing color
+set color_win_dir=default
