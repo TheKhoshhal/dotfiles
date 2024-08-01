@@ -13,3 +13,4 @@ nvim
 helix
 kitty
 cava
+brightnessctl
