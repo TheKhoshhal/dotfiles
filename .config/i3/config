@@ -18,8 +18,9 @@ exec --no-startup-id picom --config ~/.config/i3/picom.conf
 exec --no-startup-id xrdb -merge ~/.Xresources
 exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 
-exec "setxkbmap -layout us,ir"
-exec "setxkbmap -option 'grp:alt_shift_toggle'"
+# exec "setxkbmap -layout us,ir"
+# exec "setxkbmap -option 'grp:alt_shift_toggle'"
+exec setxkbmap "us,ir" ",winkeys" "grp:alt_shift_toggle,grp_led:scroll"
 
 # kill any hanging polybar processes
 exec_always killall polybar
