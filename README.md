@@ -14,3 +14,5 @@ helix
 kitty
 cava
 brightnessctl
+eza
+bat
