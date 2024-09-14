@@ -16,3 +16,4 @@ cava
 brightnessctl
 eza
 bat
+vlc
