@@ -26,6 +26,9 @@ exec setxkbmap "us,ir" ",winkeys" "grp:alt_shift_toggle,grp_led:scroll"
 exec_always killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 
+# polkit agent
+exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
+
 #wallpaper
 exec_always --no-startup-id smoothpaper -b
 
