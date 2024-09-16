@@ -9,7 +9,8 @@ cmus
 tmux
 fish
 starship
-nvim
+neovim
+ani-cli
 helix
 kitty
 cava
@@ -17,3 +18,4 @@ brightnessctl
 eza
 bat
 vlc
+networkmanager-dmenu-git
