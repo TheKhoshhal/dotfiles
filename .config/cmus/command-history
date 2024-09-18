@@ -1,9 +1,13 @@
 q
+rand
+pl-create Jazz
+add ~/Music/Jazz Music/
+colorscheme catpuccin
+colorscheme base16-black-metal-khold
 add Music/
 add ~/Music/
 pl-create satisfy
 add Music/van-gogh.mp3
-pl-create Jazz
 colorscheme base16-3024
 pl-create new
 quit
