@@ -19,3 +19,4 @@ eza
 bat
 vlc
 networkmanager-dmenu-git
+fastfetch
