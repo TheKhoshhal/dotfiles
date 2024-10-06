@@ -20,3 +20,4 @@ bat
 vlc
 networkmanager-dmenu-git
 fastfetch
+nemo
