@@ -31,7 +31,8 @@ exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
 
 #wallpaper
-exec_always --no-startup-id smoothpaper -b
+# exec_always --no-startup-id smoothpaper -b
+exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpapers/lost-in-space.png
 
 bindsym Print exec maim "/home/$USER/Pictures/$(date).jpg"
 bindsym $mod+Print exec maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date).jpg"
