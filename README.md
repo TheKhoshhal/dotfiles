@@ -1,7 +1,7 @@
 ## Requirements
 
 i3
-smoothpaper
+feh
 picom
 polybar
 rofi
@@ -21,3 +21,4 @@ vlc
 networkmanager-dmenu-git
 fastfetch
 nemo
+polkit-gnome
