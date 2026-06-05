@@ -29,3 +29,5 @@ set -U fish_greeting
 
 starship init fish | source
 enable_transience
+
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/thekhoshhal/.ghcup/bin $PATH # ghcup-env
