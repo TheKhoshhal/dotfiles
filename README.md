@@ -25,11 +25,14 @@ polkit-gnome
 
 ## Hyprland
 hyprland
+swaync
+brightnessctl
 rofi
 waybar
 rose-pine-hyprcursor
-swww
+awww
 hyprcursor
+hyprshutdown
 hyprlock
 hypridle
 wifitui
